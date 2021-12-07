@@ -6,7 +6,3 @@ spring:
         sources:
           - namespace: tutorial-project
             name: config-example
-management:
-  endpoint:
-    restart:
-      enabled: true
