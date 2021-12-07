@@ -1,0 +1,12 @@
+spring:
+  cloud:
+    kubernetes:
+      config:
+        enabled: true
+        sources:
+          - namespace: tutorial-project
+            name: config-example
+management:
+  endpoint:
+    restart:
+      enabled: true
